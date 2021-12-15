@@ -8,7 +8,7 @@ This repository is designed to analyze laboratory test results from a study aime
 
 Sample metadata and study results are stored in 2 CSV files (Mouse_metadata.csv, Study_results.csv) in the **data** directory of Pymaceuticals. These files are imported into Jupyter Notebook (pymaceuticals_kbowman.ipynb) and merged using a left join. Duplicate mouse IDs are dropped before calculating summary statistics (mean, standard deviation, median, variance, standard error of the mean) for each drug regimen tested in the study. 
 
-Data is visulaized using Pandas and Matplotlib to create the following: 
+Data is visualized using Pandas and Matplotlib to create the following: 
 - **Bar plot** showing the total number of timepoints for all mice tested for each drug regimen.
 - **Pie plot** that shows the distribution of female or male mice in the study.
 <p align="center">
@@ -41,8 +41,7 @@ A **scatter plot** of tumor volume versus mouse weight for the Capomulin treatme
 ### Installing
 
 * Clone this repository to your desktop.
-* Navitage to the home directory and open index.html in your browser.
-
+* Navitage to the Pymaceuticals directory and run the pymaceuticals_kbowman.ipynb file in Jupyter Notebook.
 ## Author
 
 Katlin Bowman, PhD
