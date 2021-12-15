@@ -24,9 +24,8 @@ The final tumor volume of each mouse across four of the most promising treatment
 A **scatter plot** of tumor volume versus mouse weight for the Capomulin treatment regimen is created, and data for mouse #185 (treated with Capomulin) is used to generate a **line plot** of tumor volume vs. time. The correlation coefficient and linear regression model are determined for the scatterplot of mouse weight and average tumor volume for the Capomulin treatment using scipy.stats. Finally, the **linear regression model** is plotted on top of the previous scatter plot.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146281207-d0bdce17-eb0d-4231-885b-e94a01ef8232.png" width="400" />
-  <img src="https://user-images.githubusercontent.com/74067302/146281820-58011196-25b3-4423-9fb4-e5145593b484.png" width="400" /> 
+  <img src="https://user-images.githubusercontent.com/74067302/146282055-cc16d122-4b5c-4e84-b294-589754337b0e.png" width="500" /> 
 </p>
-
 
 ## Getting Started
 
@@ -44,12 +43,7 @@ A **scatter plot** of tumor volume versus mouse weight for the Capomulin treatme
 * Clone this repository to your desktop.
 * Navitage to the home directory and open index.html in your browser.
 
-### Data Sources
-
-* Hulcr J, Latimer AM, Henley JB, Rountree NR, Fierer N, et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. PLoS ONE 7(11): e47712. doi:10.1371/journal.pone.0047712 [Access Data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
-
-
-## Authors
+## Author
 
 Katlin Bowman, PhD
 
