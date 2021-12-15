@@ -1,6 +1,6 @@
 # Data Visualization with Matplotlib
 
-Data cleaning, analysis, and visualization with Jupyter Notebook, Pandas, and Matplotlib.
+Data cleaning, analysis, and visualization for a pharmaceutical testing laboratory.
 
 ## Description
 
@@ -24,9 +24,10 @@ The dashboard includes a drop-down menu that displays the numerical code for eac
 
 ### Technologies Used 
 
-* JavaScript
-* HTML
-* CSS
+* Jupyter Notebook
+* Python
+* Pandas
+* Matplotlib
 
 ### Installing
 
