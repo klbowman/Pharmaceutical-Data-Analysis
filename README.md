@@ -11,6 +11,11 @@ Sample metadata and study results are stored in 2 CSV files (Mouse_metadata.csv,
 Data is visulaized using Pandas and Matplotlib to create the following: 
 - Bar plot showing the total number of timepoints for all mice tested for each drug regimen.
 - Pie plot that shows the distribution of female or male mice in the study.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/146280272-0b611c21-0dc3-44d2-8edb-80daffae1b15.png" width="500" />
+  <img src="https://user-images.githubusercontent.com/74067302/146280283-4998249e-3d50-47de-8e88-1c7bb6f79dd9.png" width="300" /> 
+</p>
+
 
 
 The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
