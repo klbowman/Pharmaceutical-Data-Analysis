@@ -16,6 +16,16 @@ Data is visulaized using Pandas and Matplotlib to create the following:
   <img src="https://user-images.githubusercontent.com/74067302/146280283-4998249e-3d50-47de-8e88-1c7bb6f79dd9.png" width="300" /> 
 </p>
 
+The final tumor volume of each mouse across four of the most promising treatment regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) is calculated using Pandas GroupBy and loc functions, then quartiles and IQR are used to quantitatively determine if there are any potential outliers across all four treatment regimens. After outliers are removed, a box plot of the final tumor volume of each mouse across four regimens of interest is created using Matplotlib.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/146280988-4fa5b4e9-f5b2-4b03-a4eb-c1f03e789058.png"/>
+</p>
+
+
+
+
+Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
+
 
 
 The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
