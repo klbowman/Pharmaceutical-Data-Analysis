@@ -21,32 +21,12 @@ The final tumor volume of each mouse across four of the most promising treatment
   <img src="https://user-images.githubusercontent.com/74067302/146280988-4fa5b4e9-f5b2-4b03-a4eb-c1f03e789058.png"/>
 </p>
 
-A **scatter plot** of tumor volume versus mouse weight for the Capomulin treatment regimen is created, and data for mouse #185 (treated with Capomulin) is used to generate a **line plot** of tumor volume vs. time.
+A **scatter plot** of tumor volume versus mouse weight for the Capomulin treatment regimen is created, and data for mouse #185 (treated with Capomulin) is used to generate a **line plot** of tumor volume vs. time. The correlation coefficient and linear regression model are determined for the scatterplot of mouse weight and average tumor volume for the Capomulin treatment using scipy.stats. Finally, the **linear regression model** is plotted on top of the previous scatter plot.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146281207-d0bdce17-eb0d-4231-885b-e94a01ef8232.png" width="400" />
-  <img src="https://user-images.githubusercontent.com/74067302/146281365-cdd97514-d4df-4a4e-bbc1-5b3fd6d75224.png" width="400" /> 
+  <img src="https://user-images.githubusercontent.com/74067302/146281820-58011196-25b3-4423-9fb4-e5145593b484.png" width="400" /> 
 </p>
 
-
-
-
-
-
-Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
-
-
-
-The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
-* Bar graph displaying the top 10 OTUs by count
-* Gauge plot showing the belly button scrubs per week
-* Bubble plot displaying OTU counts for the entire sample
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615550-98e49162-44c9-4e39-9050-ba837dc42863.png" alt="Dashboard Image"/>
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615561-5fc19f35-646b-47aa-9f63-4a93a495efe5.png" alt="Dashboard Image"/>
-</p>
 
 ## Getting Started
 
@@ -56,6 +36,8 @@ The dashboard includes a drop-down menu that displays the numerical code for eac
 * Python
 * Pandas
 * Matplotlib
+* NumPy
+* scipy.stats
 
 ### Installing
 
