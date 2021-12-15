@@ -8,6 +8,9 @@ This repository is designed to analyze laboratory test results from a study aime
 
 Sample metadata and study results are stored in 2 CSV files (Mouse_metadata.csv, Study_results.csv) in the **data** directory of Pymaceuticals. These files are imported into Jupyter Notebook (pymaceuticals_kbowman.ipynb) and merged using a left join. Duplicate mouse IDs are dropped before calculating summary statistics (mean, standard deviation, median, variance, standard error of the mean) for each drug regimen tested in the study. 
 
+Data is visulaized using Pandas and Matplotlib to create the following: 
+- Bar plot showing the total number of timepoints for all mice tested for each drug regimen.
+- Pie plot that shows the distribution of female or male mice in the study.
 
 
 The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
