@@ -9,17 +9,25 @@ This repository is designed to analyze laboratory test results from a study aime
 Sample metadata and study results are stored in 2 CSV files (Mouse_metadata.csv, Study_results.csv) in the **data** directory of Pymaceuticals. These files are imported into Jupyter Notebook (pymaceuticals_kbowman.ipynb) and merged using a left join. Duplicate mouse IDs are dropped before calculating summary statistics (mean, standard deviation, median, variance, standard error of the mean) for each drug regimen tested in the study. 
 
 Data is visulaized using Pandas and Matplotlib to create the following: 
-- Bar plot showing the total number of timepoints for all mice tested for each drug regimen.
-- Pie plot that shows the distribution of female or male mice in the study.
+- **Bar plot** showing the total number of timepoints for all mice tested for each drug regimen.
+- **Pie plot** that shows the distribution of female or male mice in the study.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146280272-0b611c21-0dc3-44d2-8edb-80daffae1b15.png" width="500" />
   <img src="https://user-images.githubusercontent.com/74067302/146280283-4998249e-3d50-47de-8e88-1c7bb6f79dd9.png" width="300" /> 
 </p>
 
-The final tumor volume of each mouse across four of the most promising treatment regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) is calculated using Pandas GroupBy and loc functions, then quartiles and IQR are used to quantitatively determine if there are any potential outliers across all four treatment regimens. After outliers are removed, a box plot of the final tumor volume of each mouse across four regimens of interest is created using Matplotlib.
+The final tumor volume of each mouse across four of the most promising treatment regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) is calculated using Pandas GroupBy and loc functions, then quartiles and IQR are used to quantitatively determine if there are any potential outliers across all four treatment regimens. After outliers are removed, a **box plot** of the final tumor volume of each mouse across four regimens of interest is created using Matplotlib.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146280988-4fa5b4e9-f5b2-4b03-a4eb-c1f03e789058.png"/>
 </p>
+
+A **scatter plot** of tumor volume versus mouse weight for the Capomulin treatment regimen is created, and data for mouse #185 (treated with Capomulin) is used to generate a **line plot** of tumor volume vs. time.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/146281207-d0bdce17-eb0d-4231-885b-e94a01ef8232.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/74067302/146281365-cdd97514-d4df-4a4e-bbc1-5b3fd6d75224.png" width="400" /> 
+</p>
+
+
 
 
 
