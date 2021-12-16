@@ -42,6 +42,11 @@ A **scatter plot** of tumor volume versus mouse weight for the Capomulin treatme
 
 * Clone this repository to your desktop.
 * Navitage to the Pymaceuticals directory and run the pymaceuticals_kbowman.ipynb file in Jupyter Notebook.
+
+### Data Sources
+
+* Mockaroo, LLC. (2021). Realistic Data Generator. https://www.mockaroo.com/
+
 ## Author
 
 Katlin Bowman, PhD
