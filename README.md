@@ -41,7 +41,7 @@ A **scatter plot** of tumor volume versus mouse weight for the Capomulin treatme
 ### Installing
 
 * Clone this repository to your desktop.
-* Navitage to the Pymaceuticals directory and run the pymaceuticals_kbowman.ipynb file in Jupyter Notebook.
+* Navigate to the Pymaceuticals directory and run the pymaceuticals_kbowman.ipynb file in Jupyter Notebook.
 
 ### Data Sources
 
